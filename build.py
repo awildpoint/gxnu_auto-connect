@@ -3,13 +3,14 @@ import PyInstaller.__main__
 
 def build_app():
     PyInstaller.__main__.run([
-        'main4.py',
+        'main6.py',
         '--onefile',
         '--windowed',
         '--noconsole',
         '--name=校园网自动认证工具',
         '--add-data=config.json;.',
         '--add-data=log.txt;.',
+        '--add-data=gxnu.ico;.',
         '--icon=gxnu.ico',  # 如果有图标文件
         '--clean',
         '--noconfirm'
