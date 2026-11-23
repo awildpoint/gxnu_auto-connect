@@ -3,7 +3,7 @@ import PyInstaller.__main__
 
 def build_app():
     PyInstaller.__main__.run([
-        'main6.py',
+        'main09.py',
         '--onefile',
         '--windowed',
         '--noconsole',

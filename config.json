@@ -1,7 +1,7 @@
 {
     "account": "",
     "password": "",
-    "operator": 2,
-    "v4ip": "",
+    "operator": "",
+    "v4ip": "172.16.**.**",
     "login_url": "https://yc.gxnu.edu.cn/drcom/login"
 }
